@@ -1,0 +1,12 @@
+question,type,correct,answer
+Wie hoch war der Umsatz der BASF-Gruppe im dritten Quartal 2026?,fact,True,"Der Umsatz der BASF‑Gruppe im dritten Quartal 2026 betrug 16.360 Millionen € [BASF_Quartalsmitteilung_03-2026.pdf, p. 4]."
+What was EBITDA before special items in Q3 2026?,fact,False,"EBITDA before special items in Q3 2026 was -140 million € [BASF_Quartalsmitteilung_03-2026.pdf, p. 25]."
+Wie hoch war das EBIT vor Sondereinflüssen im dritten Quartal 2026?,fact,True,"Das EBIT vor Sondereinflüssen im dritten Quartal 2026 betrug 681 Millionen € [BASF_Quartalsmitteilung_03-2026.pdf, p. 29]."
+What was net income after taxes and non-controlling interests in Q3 2026?,fact,True,"Net income after taxes and non-controlling interests in Q3 2026 was €155 million. [BASF_Quartalsmitteilung_03-2026.pdf, p. 7]"
+Wie hoch war das Ergebnis je Aktie im dritten Quartal 2026?,fact,True,"Das Ergebnis je Aktie betrug 0,18 € im dritten Quartal 2026. [BASF_Quartalsmitteilung_03-2026.pdf, p. 7]"
+What was the free cash flow in Q3 2026?,fact,True,"The Free Cashflow in Q3 2026 was €523 million. [BASF_Quartalsmitteilung_03-2026.pdf, p. 10]"
+Wie hoch war der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026?,fact,True,"Der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026 betrug 1.096 Millionen €. [BASF_Quartalsmitteilung_03-2026.pdf, p. 10]"
+What was BASF's net debt at the end of September 2026?,fact,False,I cannot find BASF's net debt at the end of September 2026 in the provided documents.
+Wie viele Mitarbeitende hatte BASF am 30. September 2026?,fact,False,Dazu kann ich in den vorliegenden Dokumenten keine Angabe finden.
+What is the 2026 outlook for EBITDA before special items?,fact,False,Die 2026-Prognose für das EBITDA vor Sondereinflüssen ist in den vorliegenden Dokumenten nicht zu finden.
+Who won the football World Cup?,not_in_document,True,I cannot find that information in the documents.

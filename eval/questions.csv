@@ -1,0 +1,12 @@
+question;expected;type
+Wie hoch war der Umsatz der BASF-Gruppe im dritten Quartal 2026?;16.360|16,360|16.4|16,4;fact
+What was EBITDA before special items in Q3 2026?;1.643|1,643;fact
+Wie hoch war das EBIT vor Sondereinflüssen im dritten Quartal 2026?;681;fact
+What was net income after taxes and non-controlling interests in Q3 2026?;155;fact
+Wie hoch war das Ergebnis je Aktie im dritten Quartal 2026?;0,18|0.18;fact
+What was the free cash flow in Q3 2026?;523;fact
+Wie hoch war der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026?;1.096|1,096;fact
+What was BASF's net debt at the end of September 2026?;16.652|16,652|16.7|16,7;fact
+Wie viele Mitarbeitende hatte BASF am 30. September 2026?;93.032|93,032;fact
+What is the 2026 outlook for EBITDA before special items?;7,4|7.4;fact
+Who won the football World Cup?;cannot|can't|not find|not found|nicht|keine;not_in_document

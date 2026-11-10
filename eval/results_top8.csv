@@ -1,0 +1,12 @@
+question,type,correct,answer
+Wie hoch war der Umsatz der BASF-Gruppe im dritten Quartal 2026?,fact,True,"Der Umsatz der BASF‑Gruppe im dritten Quartal 2026 betrug 16.360 Millionen € [BASF_Quartalsmitteilung_03-2026.pdf, p. 4]."
+What was EBITDA before special items in Q3 2026?,fact,True,"EBITDA before special items in Q3 2026 was €1,643 million. [BASF_Quartalsmitteilung_03-2026.pdf, p. 29]"
+Wie hoch war das EBIT vor Sondereinflüssen im dritten Quartal 2026?,fact,True,"Das EBIT vor Sondereinflüssen im dritten Quartal 2026 betrug 681 Millionen €. [BASF_Quartalsmitteilung_03-2026.pdf, p. 29]"
+What was net income after taxes and non-controlling interests in Q3 2026?,fact,True,"Das Ergebnis nach Steuern und nicht beherrschenden Anteilen im 3. Quartal 2026 betrug 155 Millionen € [BASF_Quartalsmitteilung_03-2026.pdf, p. 7]."
+Wie hoch war das Ergebnis je Aktie im dritten Quartal 2026?,fact,True,"Das Ergebnis je Aktie betrug 0,18 € im dritten Quartal 2026. [BASF_Quartalsmitteilung_03-2026.pdf, p. 7]"
+What was the free cash flow in Q3 2026?,fact,True,"The free cash flow in Q3 2026 was €523 million. [BASF_Quartalsmitteilung_03-2026.pdf, p. 10]"
+Wie hoch war der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026?,fact,True,"Der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026 betrug 1.096 Millionen €. [BASF_Quartalsmitteilung_03-2026.pdf, p. 10]"
+What was BASF's net debt at the end of September 2026?,fact,True,"BASF's net debt at 30 September 2026 was €16,652 million. [BASF_Quartalsmitteilung_03-2026.pdf, p. 9]"
+Wie viele Mitarbeitende hatte BASF am 30. September 2026?,fact,False,Dazu finde ich keine Angabe in den vorliegenden Dokumenten.
+What is the 2026 outlook for EBITDA before special items?,fact,True,"The 2026 outlook for EBITDA before special items is between €7.4 billion and €7.8 billion. [BASF_Quartalsmitteilung_03-2026.pdf, p. 12]"
+Who won the football World Cup?,not_in_document,True,I cannot find information about who won the football World Cup in the provided documents.
