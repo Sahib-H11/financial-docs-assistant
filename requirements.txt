@@ -17,3 +17,4 @@ streamlit
 requests
 pandas
 openpyxl
+cryptography

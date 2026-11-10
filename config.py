@@ -13,4 +13,4 @@ COLLECTION_NAME = "financial_docs"
 
 CHUNK_SIZE = 1000     # characters per chunk
 CHUNK_OVERLAP = 150   # characters shared by neighbouring chunks
-TOP_K = 4             # how many chunks we send to the LLM
+TOP_K = 8             # how many chunks we send to the LLM

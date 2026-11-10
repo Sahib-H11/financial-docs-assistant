@@ -1,6 +1,14 @@
 import requests
 import streamlit as st
 
+
+def error_text(r):
+    """Return the API's error message, even if the response is not JSON."""
+    try:
+        return r.json().get("detail", r.text)
+    except ValueError:
+        return f"Server error {r.status_code}: {r.text[:200]}"
+
 API_URL = "http://localhost:8000"
 
 st.set_page_config(page_title="Financial Document Assistant", layout="wide")
@@ -22,7 +30,7 @@ with st.sidebar:
             if r.ok:
                 st.success(f"{f.name}: {r.json()['chunks']} chunks indexed")
             else:
-                st.error(f"{f.name}: {r.json().get('detail', r.text)}")
+                st.error(f"{f.name}: {error_text(r)}")
 
 # --- Main area: questions ---
 st.header("2. Ask a question")
@@ -39,4 +47,4 @@ if st.button("Ask") and question:
             with st.expander(f"{s['file']}, page {s['page']}"):
                 st.write(s["excerpt"] + " ...")
     else:
-        st.error(r.json().get("detail", r.text))
+        st.error(error_text(r))

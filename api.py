@@ -35,6 +35,8 @@ def upload(file: UploadFile = File(...)):
         n_chunks = ingest_pdf(str(path))
     except ValueError as e:  # e.g. scanned PDF without text
         raise HTTPException(status_code=422, detail=str(e))
+    except Exception as e:  # any other problem, e.g. a damaged or protected PDF
+        raise HTTPException(status_code=500, detail=f"Could not process {file.filename}: {e}")
 
     return {"filename": file.filename, "chunks": n_chunks}
 
