@@ -1,0 +1,39 @@
+document;question;expected;pages;type
+Henkel_Q3_2026.pdf;What were Henkel's Group sales in Q3 2026?;5,713|5.713|5.7 billion|5,7;3;fact
+Henkel_Q3_2026.pdf;What were Henkel's Group sales in Q3 2025?;5,147|5.147;3;fact
+Henkel_Q3_2026.pdf;By how much did Henkel's Group sales increase nominally in Q3 2026?;11.0|11,0|11 percent|11%;3;fact
+Henkel_Q3_2026.pdf;What was Henkel's organic sales growth in Q3 2026?;6.5|6,5;1;fact
+Henkel_Q3_2026.pdf;What were Henkel's Group sales in the first nine months of 2026?;16,061|16.061|16.1 billion;3;fact
+Henkel_Q3_2026.pdf;What was Henkel's organic sales growth in the first nine months of 2026?;4.3|4,3;3;fact
+Henkel_Q3_2026.pdf;How much did acquisitions/divestments contribute to Henkel's sales growth in Q3 2026?;4.4|4,4;3;fact
+Henkel_Q3_2026.pdf;What was the price effect in Henkel's organic growth in Q3 2026?;5.4|5,4;3;fact
+Henkel_Q3_2026.pdf;What were the sales of the Adhesive Technologies business unit in Q3 2026?;3,027|3.027;4;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of Adhesive Technologies in Q3 2026?;7.9|7,9;1;fact
+Henkel_Q3_2026.pdf;What were the sales of Adhesive Technologies in the first nine months of 2026?;8,561|8.561;4;fact
+Henkel_Q3_2026.pdf;What were the sales of the Consumer Brands business unit in Q3 2026?;2,643|2.643;6;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of Consumer Brands in Q3 2026?;4.8|4,8;1;fact
+Henkel_Q3_2026.pdf;What were the sales of Consumer Brands in the first nine months of 2026?;7,376|7.376;6;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of the Mobility & Electronics business area in Q3 2026?;12.1|12,1;5;fact
+Henkel_Q3_2026.pdf;What were the sales of the Mobility & Electronics business area in Q3 2026?;1,198|1.198;5;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of Packaging & Consumer Goods in Q3 2026?;9.8|9,8;5;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of the Laundry & Home Care business area in Q3 2026?;6.0|6,0|6 percent|6%;6;fact
+Henkel_Q3_2026.pdf;What were the sales of Henkel's Hair business area in Q3 2026?;1,019|1.019;7;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth of the Hair business area in Q3 2026?;4.0|4,0|4 percent|4%;6;fact
+Henkel_Q3_2026.pdf;What were Henkel's sales in Europe in Q3 2026?;2,101|2.101;3;fact
+Henkel_Q3_2026.pdf;What were Henkel's sales in North America in Q3 2026?;1,532|1.532;3;fact
+Henkel_Q3_2026.pdf;What was the organic sales growth in the IMEA region in Q3 2026?;27.8|27,8;3;fact
+Henkel_Q3_2026.pdf;What annual sales do Henkel's recent acquisitions represent?;1.6 billion|1,6;2;fact
+Henkel_Q3_2026.pdf;What organic sales growth does Henkel expect for the Group in fiscal 2026?;4.0|4,0|3.0|3,0;8;fact
+Henkel_Q3_2026.pdf;What adjusted return on sales does Henkel expect for the Group in 2026?;15 percent|15%|15 %|15 prozent|around 15;8;fact
+Henkel_Q3_2026.pdf;What organic sales growth does Henkel expect for Adhesive Technologies in 2026?;5.5|5,5|4.5|4,5;8;fact
+Henkel_Q3_2026.pdf;What restructuring expenses does Henkel expect for 2026?;250|200;8;fact
+Henkel_Q3_2026.pdf;How much does Henkel expect to invest in property, plant and equipment and intangible assets in 2026?;750|650;8;fact
+Henkel_Q3_2026.pdf;How many people does Henkel employ worldwide?;47,000|47.000|47000;9;fact
+Henkel_Q3_2026.pdf;Wie hoch war der Konzernumsatz von Henkel im dritten Quartal 2026?;5,713|5.713|5,7|5.7;3;fact
+Henkel_Q3_2026.pdf;Wie hoch war das organische Umsatzwachstum von Henkel im dritten Quartal 2026?;6,5|6.5;1;fact
+Henkel_Q3_2026.pdf;Welches organische Umsatzwachstum erwartet Henkel 2026 für den Konzern?;4,0|4.0|3,0|3.0;8;fact
+Henkel_Q3_2026.pdf;Wie hoch war der Umsatz von Adhesive Technologies im dritten Quartal 2026?;3,027|3.027;4;fact
+none;What was Henkel's net income in Q3 2026?;cannot|not find|not found|keine angabe|nicht;;not_in_document
+none;What was Henkel's adjusted EBIT in Q3 2026?;cannot|not find|not found|keine angabe|nicht;;not_in_document
+none;Wie hoch war der Free Cashflow von Henkel im dritten Quartal 2026?;cannot|not find|not found|keine angabe|nicht;;not_in_document
+none;What were Henkel's sales in Q4 2026?;cannot|not find|not found|keine angabe|nicht;;not_in_document

@@ -34,11 +34,17 @@ with st.sidebar:
 
 # --- Main area: questions ---
 st.header("2. Ask a question")
+try:
+    docs = requests.get(f"{API_URL}/documents", timeout=10).json()["documents"]
+except Exception:
+    docs = []
+ALL = "All documents"
+scope = st.selectbox("Search in", [ALL] + docs)
 question = st.text_input("Question (German or English)", placeholder="Wie hoch war die Eigenkapitalquote?")
 
 if st.button("Ask") and question:
     with st.spinner("Searching the documents ..."):
-        r = requests.post(f"{API_URL}/ask", json={"question": question}, timeout=180)
+        r = requests.post(f"{API_URL}/ask", json={"question": question, "document": None if scope == ALL else scope}, timeout=180)
     if r.ok:
         data = r.json()
         st.markdown(data["answer"])

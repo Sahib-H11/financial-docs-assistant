@@ -1,0 +1,5 @@
+top_k,group,n,accuracy,ci_low,ci_high,retrieval_hit_rate,hallucination_rate,abstention_rate,errors
+8,ALL,38,1.0,0.90818706741616,0.9999999999999999,0.9411764705882353,0.0,0.0,0
+8,out-of-sample,34,1.0,0.8984820937803899,1.0,0.9411764705882353,0.0,0.0,0
+8,trap (answer in no document),4,1.0,0.5100999795960008,1.0,,0.0,0.0,0
+8,Henkel_Q3_2026.pdf,34,1.0,0.8984820937803899,1.0,0.9411764705882353,0.0,0.0,0

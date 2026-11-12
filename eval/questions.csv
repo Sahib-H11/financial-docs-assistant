@@ -1,12 +1,90 @@
-question;expected;type
-Wie hoch war der Umsatz der BASF-Gruppe im dritten Quartal 2026?;16.360|16,360|16.4|16,4;fact
-What was EBITDA before special items in Q3 2026?;1.643|1,643;fact
-Wie hoch war das EBIT vor Sondereinflüssen im dritten Quartal 2026?;681;fact
-What was net income after taxes and non-controlling interests in Q3 2026?;155;fact
-Wie hoch war das Ergebnis je Aktie im dritten Quartal 2026?;0,18|0.18;fact
-What was the free cash flow in Q3 2026?;523;fact
-Wie hoch war der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026?;1.096|1,096;fact
-What was BASF's net debt at the end of September 2026?;16.652|16,652|16.7|16,7;fact
-Wie viele Mitarbeitende hatte BASF am 30. September 2026?;93.032|93,032;fact
-What is the 2026 outlook for EBITDA before special items?;7,4|7.4;fact
-Who won the football World Cup?;cannot|can't|not find|not found|nicht|keine;not_in_document
+document;question;expected;pages;type
+BASF_Quartalsmitteilung_03-2026.pdf;Wie hoch war der Umsatz der BASF-Gruppe im dritten Quartal 2026?;16.360|16,360|16.4|16,4;4|6|26|29|31;fact
+BASF_Quartalsmitteilung_03-2026.pdf;What was EBITDA before special items in Q3 2026?;1.643|1,643;4|6|29|31;fact
+BASF_Quartalsmitteilung_03-2026.pdf;Wie hoch war das EBIT vor Sondereinflüssen im dritten Quartal 2026?;681;4|29;fact
+BASF_Quartalsmitteilung_03-2026.pdf;What was net income after taxes and non-controlling interests in Q3 2026?;155;4|7|16|26|28;fact
+BASF_Quartalsmitteilung_03-2026.pdf;Wie hoch war das Ergebnis je Aktie im dritten Quartal 2026?;0,18|0.18;4|7|26;fact
+BASF_Quartalsmitteilung_03-2026.pdf;What was the free cash flow in Q3 2026?;523;4|10|30;fact
+BASF_Quartalsmitteilung_03-2026.pdf;Wie hoch war der Cashflow aus betrieblicher Tätigkeit im dritten Quartal 2026?;1.096|1,096;4|10|28;fact
+BASF_Quartalsmitteilung_03-2026.pdf;What was BASF's net debt at the end of September 2026?;16.652|16,652|16.7|16,7;4|9;fact
+BASF_Quartalsmitteilung_03-2026.pdf;Wie viele Mitarbeitende hatte BASF am 30. September 2026?;93.032|93,032;4;fact
+BASF_Quartalsmitteilung_03-2026.pdf;What is the 2026 outlook for EBITDA before special items?;7,4|7.4;12;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's sales in the third quarter of 2026?;3,825|3.825;4;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's sales in the third quarter of 2025?;3,391|3.391;2|5|13;fact
+Evonik_Q3_2026_E.pdf;By how many percent did Evonik's sales grow in Q3 2026?;13 percent|13%|13 %|13 prozent;2;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's adjusted EBITDA in Q3 2026?;629;2|5;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's adjusted EBITDA margin in Q3 2026?;16.4|16,4;2|5;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's adjusted EBIT in Q3 2026?;389;2;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's net income in Q3 2026?;53 million|53 mio|-53|–53|−53;5;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's adjusted net income in Q3 2026?;330;6;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's earnings per share in Q3 2026?;0.11|0,11;2|5|13;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's adjusted earnings per share in Q3 2026?;0.71|0,71;6;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's cash flow from operating activities in Q3 2026?;562;2|15;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's free cash flow in Q3 2026?;369;2;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's free cash flow in the first nine months of 2026?;601;9;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's sales in the first nine months of 2026?;11,144|11.144;6;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's adjusted EBITDA in the first nine months of 2026?;1,734|1.734;2|6;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's net financial debt as of September 30, 2026?;3,292|3.292;10;fact
+Evonik_Q3_2026_E.pdf;How many employees did Evonik have as of September 30, 2026?;30,319|30.319;2|17;fact
+Evonik_Q3_2026_E.pdf;Wie hoch war der Umsatz von Evonik im dritten Quartal 2026?;3,825|3.825;4;fact
+Evonik_Q3_2026_E.pdf;Wie hoch war das bereinigte EBITDA von Evonik im dritten Quartal 2026?;629;2|5;fact
+Evonik_Q3_2026_E.pdf;What were the sales of Evonik's Advanced Technologies segment in Q3 2026?;1,713|1.713;6;fact
+Evonik_Q3_2026_E.pdf;Wie hoch war das bereinigte EBITDA des Segments Advanced Technologies im 3. Quartal 2026?;377;7;fact
+Evonik_Q3_2026_E.pdf;What were the sales of Evonik's Custom Solutions segment in Q3 2026?;1,394|1.394;8;fact
+Evonik_Q3_2026_E.pdf;What was the adjusted EBITDA of Evonik's Custom Solutions segment in Q3 2026?;231;8;fact
+Evonik_Q3_2026_E.pdf;What were the sales of Evonik's Infrastructure segment in Q3 2026?;648;9;fact
+Evonik_Q3_2026_E.pdf;What was the adjusted EBITDA of Evonik's Infrastructure segment in Q3 2026?;80 million|80 mio|€80;9;fact
+Evonik_Q3_2026_E.pdf;How much did Evonik expense for structural measures in Q3 2026?;313;4;fact
+Evonik_Q3_2026_E.pdf;How many jobs will Evonik shed in the initial phase of the Tailor Made program (2024-2026)?;2,800|2.800;4;fact
+Evonik_Q3_2026_E.pdf;How many further job reductions are planned in the second phase from 2027 to 2029?;3,200|3.200;4;fact
+Evonik_Q3_2026_E.pdf;What is Evonik's full-year 2026 outlook for adjusted EBITDA?;2.2 billion|2,2 mrd|2.2 bn|2,2 milliarden;2|11|12;fact
+Evonik_Q3_2026_E.pdf;Wie lautet die Prognose von Evonik für das bereinigte EBITDA 2026?;2.2 billion|2,2 mrd|2.2 bn|2,2 milliarden|2,2 billion;2|11|12;fact
+Evonik_Q3_2026_E.pdf;How much was Evonik's dividend payment for 2025?;466;9;fact
+Evonik_Q3_2026_E.pdf;What global GDP growth does Evonik assume for 2026?;2.2 percent|2.2%|2,2 %|2.2 %|2,2%|2,2 prozent;10;fact
+Evonik_Q3_2026_E.pdf;What average US dollar/euro exchange rate does Evonik assume?;1.17|1,17;10;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's total assets as of September 30, 2026?;18,812|18.812;14;fact
+Evonik_Q3_2026_E.pdf;What was Evonik's equity as of September 30, 2026?;8,090|8.090;14;fact
+Evonik_Q3_2026_E.pdf;What were Evonik's cash and cash equivalents as of September 30, 2026?;533;10|14;fact
+Evonik_Q3_2026_E.pdf;What cash conversion rate does Evonik expect for 2026?;40 percent|40%|40 %|40 prozent;12;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Konzernumsatz von Bayer im 3. Quartal 2026?;10.053|10,053|10,1|10.1;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What were Bayer's group sales in Q3 2026?;10.053|10,053|10,1|10.1;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Konzernumsatz von Bayer im 3. Quartal 2025?;9.660|9,660;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das EBITDA vor Sondereinflüssen von Bayer im 3. Quartal 2026?;1.615|1,615|1,6 mrd|1.6 billion;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What was Bayer's EBITDA before special items in Q3 2026?;1.615|1,615|1,6 mrd|1.6 billion;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war die EBITDA-Marge vor Sondereinflüssen des Bayer-Konzerns im 3. Quartal 2026?;16,1|16.1;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das EBIT des Bayer-Konzerns im 3. Quartal 2026?;110 mio|110 million|-110|–110|−110;5;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das EBIT vor Sondereinflüssen von Bayer im 3. Quartal 2026?;297;5;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das Konzernergebnis von Bayer im 3. Quartal 2026?;672|0,7 mrd|0.7 billion;5;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das Ergebnis je Aktie von Bayer im 3. Quartal 2026?;0,69|0.69;6;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What was Bayer's core EPS (adjusted earnings per share) in Q3 2026?;0,31|0.31;6;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Free Cashflow von Bayer im 3. Quartal 2026?;293;13;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der um Vergleichszahlungen bereinigte Free Cashflow von Bayer im 3. Quartal 2026?;828;13;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war die Nettofinanzverschuldung von Bayer zum 30. September 2026?;31,1|31.1|31.083|31,083;1|13;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What was Bayer's net financial debt as of September 30, 2026?;31,1|31.1|31.083|31,083;1|13;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie viele Beschäftigte hatte Bayer zum 30. September 2026?;87.775|87,775;6;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Cashflow aus operativer Tätigkeit von Bayer im 3. Quartal 2026?;631;13;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das Finanzergebnis von Bayer im 3. Quartal 2026?;678;5;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Umsatz der Division Pharmaceuticals im 3. Quartal 2026?;4.680|4,680;9;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What was the EBITDA before special items of Bayer's Pharmaceuticals division in Q3 2026?;1.292|1,292;9;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Umsatz von Crop Science im 3. Quartal 2026?;3.884|3,884;7;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war das EBITDA vor Sondereinflüssen von Crop Science im 3. Quartal 2026?;101;7;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war der Umsatz von Consumer Health im 3. Quartal 2026?;1.445|1,445;11;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war die EBITDA-Marge vor Sondereinflüssen von Consumer Health im 3. Quartal 2026?;24,0|24.0;11;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie viel Umsatz erzielte Bayer im 3. Quartal 2026 in Deutschland?;547;4;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch waren die Wertminderungen auf die Marke Xofigo?;307;5;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie hoch war die Wertminderung auf die Marke Claritin?;215;5|19;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Welches EBITDA vor Sondereinflüssen erwartet Bayer für 2026 (währungsbereinigt)?;10,3|10.3;14;fact
+bayer-quartalsmitteilung-q3-2026.pdf;What free cash flow does Bayer expect for 2026?;0,5 mrd|0.5 billion|0,5 milliarden|0.5 bn|-0.5|–0.5|−0.5|-0,5|–0,5;14;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Welche Nettofinanzverschuldung erwartet Bayer zum Jahresende 2026?;28,0|28.0|29,0|29.0;14;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Welche EBITDA-Marge vor Sondereinflüssen erwartet Bayer 2026 für Pharmaceuticals?;27 %|27%|27 percent|27 prozent|bis 27|to 27|25–27|25-27;14;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Welchen Umsatz erwartet Bayer für 2026 (währungsbereinigt)?;45 bis 47|45 to 47|45–47|45-47|47 mrd|47 billion|47 milliarden;15;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Welches bereinigte Ergebnis je Aktie (Core EPS) erwartet Bayer für 2026?;4,80|4.80;15;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie viel Kapital erhielt Bayer im Rahmen der Vereinbarung mit Apollo?;3,0 mrd|3.0 billion|3 billion|3 mrd|3,0 milliarden|3.000|3,000;3;fact
+bayer-quartalsmitteilung-q3-2026.pdf;Wie viel will Bayer in den neuen Standort in New Albany, Ohio investieren?;2,2 mrd|2.2 billion|2,2 milliarden;4;fact
+none;Who won the football World Cup?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;What were Evonik's sales in the third quarter of 2019?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;Wie hoch war der Konzernumsatz von Bayer im 3. Quartal 2030?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;What was Lufthansa's revenue in Q3 2026?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;Wie hoch war der Aktienkurs von Bayer am 30. September 2026?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;What dividend per share will Evonik pay for 2026?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document
+none;Wie hoch war der Nettogewinn von Siemens im dritten Quartal 2026?;cannot|can't|not find|not found|keine angabe|nicht;;not_in_document

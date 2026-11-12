@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from langchain_chroma import Chroma
@@ -25,6 +26,12 @@ def get_vectorstore():
     )
 
 
+def list_documents() -> list[str]:
+    """Names of all PDFs currently stored in the database."""
+    metadatas = get_vectorstore().get(include=["metadatas"])["metadatas"]
+    return sorted({m["source"] for m in metadatas if m and "source" in m})
+
+
 def ingest_pdf(pdf_path: str) -> int:
     """Read a PDF, split it into chunks and store them. Returns the number of chunks."""
     filename = Path(pdf_path).name
@@ -33,6 +40,12 @@ def ingest_pdf(pdf_path: str) -> int:
     for page in pages:
         page.metadata["source"] = filename
         page.metadata["page"] = page.metadata.get("page", 0) + 1  # PyPDF counts from 0
+
+    # Save the full text of every page, so rag.py can give the LLM whole pages
+    pages_dir = Path(config.PAGES_DIR)
+    pages_dir.mkdir(parents=True, exist_ok=True)
+    page_texts = {str(p.metadata["page"]): p.page_content for p in pages}
+    (pages_dir / f"{filename}.json").write_text(json.dumps(page_texts, ensure_ascii=False), encoding="utf-8")
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=config.CHUNK_SIZE, chunk_overlap=config.CHUNK_OVERLAP

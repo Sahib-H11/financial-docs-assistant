@@ -5,3 +5,5 @@ data/uploads/
 __pycache__/
 .DS_Store
 *.xlsx
+data/pages/
+data/_to_delete/

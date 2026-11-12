@@ -4,7 +4,7 @@ from pathlib import Path
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from pydantic import BaseModel
 
-from ingest import ingest_pdf
+from ingest import ingest_pdf, list_documents
 from rag import answer_question
 
 app = FastAPI(title="Financial Document Assistant")
@@ -15,11 +15,17 @@ UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 class Question(BaseModel):  # describes the JSON body of /ask
     question: str
+    document: str | None = None  # optional: search only in this PDF
 
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.get("/documents")
+def documents():
+    return {"documents": list_documents()}
 
 
 @app.post("/upload")
@@ -45,4 +51,4 @@ def upload(file: UploadFile = File(...)):
 def ask(q: Question):
     if not q.question.strip():
         raise HTTPException(status_code=400, detail="Question is empty.")
-    return answer_question(q.question)
+    return answer_question(q.question, document=q.document)
